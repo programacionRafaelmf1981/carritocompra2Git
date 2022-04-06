@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html{border:1px solid #F9060A;
+	height:1000px;
+}
+
+
+body{width:901px;
+     height:800px;  
+	background-color:#E9CD57;
+	border:1px solid #000000;
+	margin:auto;
+	box-shadow: 6px 6px 6px;
+	
+		
+
+}
+img{height:100px;
+	width:100px;
+	padding:0px 10px;
+
+	
+
+}
+
+h1{margin-left:20%;
+   
+}
+
+h2{ 
+	margin-top:-30px;
+	
+	
+}
+p{margin:30px;
+}
+
+
+
+
+div{border:3px dashed #6245F0;}
+
+.ftproduct{width:140px;
+	height:100px; 
+	float:left;
+
+}
+
+.textproduct{width:140px;
+	float:right;	
+	height: 100px;
+
+
+}
+
+#productos {height:500px;
+	       width:300px;
+	       margin:30px;
+	       float:left;
+ 
+}
+#cesta {height:500px;
+	       width:300px;
+	       margin:30px;
+	       float:right;
+ 
+}
+
+#contproduct3{
+	
+	background-color:#F37A7C;
+	color:#F728EF;
+	border:3px solid #0EF822;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

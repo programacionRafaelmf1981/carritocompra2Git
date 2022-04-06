@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+	<script src="carrito.compra2.js"></script>
+	<script src="jquery-3.6.0.min jquery.js"></script>
+	<link href="css carrito compra2.css" rel="stylesheet" type="text/css">
+
+<meta charset="utf-8">
+<title>carrito compra2</title>
+</head>
+
+<body>
+	
+	<!--...................................ZONA JAVASCRIPT.................................-->
+	
+	
+	<script>
+	
+	var carrito=[];
+	var productos=[2,4,9]	
+		
+		$(document).ready(function(){
+		
+		
+		$("#producto1").click(function(){
+			
+			
+			carrito.unshift(productos[0]);
+			
+	
+			alert("has añadido  " + carrito + " a tu carrito");
+			
+		
+			
+		});//click1
+			
+			
+		
+			
+			
+			
+		
+		
+		
+		
+		$("#boton").click(function(){
+			alert("prueba de boton")
+			
+		});//clic boton
+		
+		
+		
+		
+		
+	});//READY
+		
+		
+		
+		
+		
+
+	alert("funcionando");
+	
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--..........................................ZONA HTML...............................-->
+	
+	
+	<h1>esta en la seccion de la cesta de la compra </h1>
+	<h2>y 3tercera prueba de git b</h2>
+	<hr>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptatem nemo tenetur dolores iusto ipsum cum eum dolorem dicta ipsa, voluptatum veniam assumenda, porro quis dignissimos, obcaecati soluta repellat nisi!,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, doloremque excepturi ab vel quibusdam quasi natus cum maiores, suscipit velit illo maxime aliquid provident distinctio nisi perferendis. Assumenda, odio harum.</p>
+
+	
+	
+	<!--es importante anotar que la colocacion de div anidados en html y el uso de class para poder crear un formato de colocacionn de las fotos y sus textos , su formato es igual en todos los productos,entonces  es un div id general de productos que agrupa un div con id para cada producto y(cada producto) este a su vez contiene dos contenedores div class uno para la foto y otro para el texto que conforman el producto, 
+
+    tan solo tengo que cambia el id del div del producto ,la foto,el texto asociado y el name -->
+	<input value="prueba" type="button" id="boton">
+	
+	<div id="productos">
+	    <h2>Productos</h2>
+		
+		
+		
+		
+		<div id="contproduct1"> <!--contproduct aplicar este contenedor para cada  producto  contiene 2 contenedores uno de foto y otro de texto-->
+		<div class="ftproduct">
+			<img src="img cesta compra/impresoras 3d/producto1.png" val="320" alt="impresora3d" id="producto1">
+		</div>
+		<div class="textproduct">
+			<p1>impresora 3d,modelo:epson xprt334</p1>
+		</div>
+		
+		</div><!--contproduct
+		-->
+			<div id="contproduct2">
+		<div class="ftproduct">
+			<img src="img cesta compra/impresoras 3d/producto2.png" val="450" alt="impresora3d" id="producto2">
+		</div>
+		<div class="textproduct">
+			<p1>impresora 3d,modelo:lg input559</p1>
+		</div>
+		
+		</div><!--contproduct-->
+		
+     		<div id="contproduct3">
+		<div class="ftproduct">
+			<img src="img cesta compra/impresoras 3d/producto3.png" alt="impresora3d" name="producto3">
+		</div>
+		<div class="textproduct">
+			<p1>impresora 3d,modelo:lenovo input53231</p1>
+		</div>
+		
+		</div><!--contproduct-->
+		
+		
+			<div id="contproduct4">
+		<div class="ftproduct">
+			<img src="img cesta compra/impresoras 3d/producto4.png" alt="impresora3d" name="producto4">
+		</div>
+		<div class="textproduct">
+			<p1>impresora 3d,modelo:guerkel output535354</p1>
+		</div>
+		
+		</div><!--contproduct-->
+		
+		
+		
+	
+	</div><!--productos-->
+	<div id="cesta">
+		<h2>Cesta</h2>
+		
+		
+	</div>
+	
+</body>
+</html>
